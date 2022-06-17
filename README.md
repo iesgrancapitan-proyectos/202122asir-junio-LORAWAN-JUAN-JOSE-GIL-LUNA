@@ -9,7 +9,7 @@ Toda la información del proyecto la puedes encontrar en el siguiente enlace a l
 
 Aquí tienes un acceso directo a las partes mas importantes del proyecto:
 
-1. [Documentación del Proyecto](https://github.com/iesgrancapitan-proyectos/202122asir-junio-LORAWAN-JUAN-JOSE-GIL-LUNA/wiki)
+1. [Documentación del Proyecto](https://github.com/iesgrancapitan-proyectos/202122asir-junio-LORAWAN-JUAN-JOSE-GIL-LUNA/wiki/Doc_PI)
 2. [Manual de Despliegue/Instalación](https://github.com/iesgrancapitan-proyectos/202122asir-junio-LORAWAN-JUAN-JOSE-GIL-LUNA/wiki/7Doc_Implantación)
 3. [Configuración de los Dispostivos](https://github.com/iesgrancapitan-proyectos/202122asir-junio-LORAWAN-JUAN-JOSE-GIL-LUNA/wiki/Configuracion_dispositivos)
 4. [Interpretación de los resultados](https://github.com/iesgrancapitan-proyectos/202122asir-junio-LORAWAN-JUAN-JOSE-GIL-LUNA/wiki/Interpretacion_resultados)

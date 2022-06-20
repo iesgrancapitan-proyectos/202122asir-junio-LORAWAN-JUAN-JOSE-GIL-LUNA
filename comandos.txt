@@ -1,0 +1,57 @@
+dragino+dragino default pass internet
+
+#Actualizamos
+sudo apt update
+sudo apt upgrade
+
+#paquetes necesarios para usar paquetes a traves de https
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+#clave repositorio docker:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+#Agregamos el repositorio de docker al APT:
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+#Actualizamos 
+sudo apt update
+
+#Nos aseguramos de que el repositorio es correcto:
+apt-cache policy docker-ce
+
+#Instalamos docker comunity edition
+sudo apt install docker-ce
+
+#Instalamos docker-compose
+sudo apt install docker-compose
+
+#Nos descargamos el repositorio de chirpstack para docker-compose y nos metemos dentro de la carpeta
+git clone https://github.com/brocaar/chirpstack-docker.git
+cd chirpstack-docker
+
+#si se requiere de configurar puertos, tenemos la opcion de modificarlos en el docker compose.
+
+#Arrancamos el contenedor de docker:
+sudo docker-compose up
+
+admin admin
+
+Parametros de LORAWAN:
+https://lora-alliance.org/resource_hub/rp2-1-0-3-lorawan-regional-parameters/
+
+Pagina 25-94
+
+#instalación de cliente mosquito
+sudo apt install mosquitto-clients
+
+#ver eventos de mosquito
+mosquitto_sub -v -t '#'
+
+
+#Enlaces Documentación:
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-es
+
+https://docs.docker.com/engine/install/ubuntu/
+
+https://www.chirpstack.io/project/guides/docker-compose/
